@@ -70,3 +70,11 @@ pip install librosa
 - The script converts shortened bird audio files into spectrogram images, providing a visual representation of frequencies over time.
 
 - Spectrograms are useful for extracting features relevant to bird species recognition.
+
+## Accuracy
+
+| Learning rate | Accuracy |
+| ------------- |----------|
+| 0.001         |   41.5%  |
+| 0.01          |    |
+| 0.005         |  |
