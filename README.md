@@ -78,3 +78,10 @@ pip install librosa
 | 0.001         |   41.5%  |
 | 0.01          |    |
 | 0.005         |  |
+
+
+## Images
+
+![Accuracy](https://github.com/Cordobro/Mini-project-D7041E/blob/main/images/lr%3D0.001_accuracy.png)
+
+![Loss](https://github.com/Cordobro/Mini-project-D7041E/blob/main/images/lr%3D0.001_loss.png)
