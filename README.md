@@ -56,12 +56,28 @@ pip install librosa
 - [Matplotlib](https://pypi.org/project/matplotlib): A Python plotting library.
 - [Librosa](https://pypi.org/project/librosa): A Python package for music and audio analysis.
 
-## Accuracy
+## Spectogram_classification
+### Overview
+The `Create_spectogram` script is responsible for converting shortened bird audio files into spectrogram images. Spectrograms visually represent the frequencies present in an audio signal over time, providing valuable insights for the applied AI project's bird species recognition.
+
+### Prerequisites
+```bash
+pip install scikit-learn
+pip install scipy
+
+```
+
+### Dependencies
+- [Matplotlib](https://pypi.org/project/matplotlib): A Python plotting library.
+- [Librosa](https://pypi.org/project/librosa): A Python package for music and audio analysis.
+
+## Accuracy for 9 different sounds
 
 | Learning rate | Accuracy | F1-Score | Precision | Recall |
 | ------------- |----------| -------- |---------- |--------|
-| 0.001         |   %      |          |           |        |
-| 0.005         |   %      |          |           |        |
-| 0.01          |   %      |          |           |        |
-| 0.05          |   %      |          |           |        |
-| 0.1           |   %      |          |           |        |
+| 0.001         |   76.0%  |   76%    |    76%    |   76%  |
+| 0.005         |   76.3%  |   76%    |    77%    |   76%  |
+| 0.01          |   77.8%  |   78%    |    78%    |   78%  |
+| 0.05          |   76.1%  |   77%    |    78%    |   76%  |
+| 0.1           |   78.4%  |   78%    |    79%    |   78%  |
+| 0.5           |   76.0%  |   76%    |    77%    |   76%  |
