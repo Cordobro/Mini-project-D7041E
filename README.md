@@ -71,7 +71,7 @@ pip install scipy
 - [Matplotlib](https://pypi.org/project/matplotlib): A Python plotting library.
 - [Librosa](https://pypi.org/project/librosa): A Python package for music and audio analysis.
 
-## Accuracy for 9 different sounds
+## Accuracy for 9 different sounds with 1 hidden layer
 
 | Learning rate | Accuracy | F1-Score | Precision | Recall |
 | ------------- |----------| -------- |---------- |--------|
@@ -81,3 +81,14 @@ pip install scipy
 | 0.05          |   76.1%  |   77%    |    78%    |   76%  |
 | 0.1           |   78.4%  |   78%    |    79%    |   78%  |
 | 0.5           |   76.0%  |   76%    |    77%    |   76%  |
+
+## Accuracy for 9 different sounds with 3 hidden layer
+
+| Learning rate | Accuracy | F1-Score | Precision | Recall |
+| ------------- |----------| -------- |---------- |--------|
+| 0.001         |   76.5%  |   75%    |    77%    |   74%  |
+| 0.005         |   76.6%  |   77%    |    77%    |   77%  |
+| 0.01          |   75.1%  |   75%    |    75%    |   75%  |
+| 0.05          |
+| 0.1           |
+| 0.5           |
