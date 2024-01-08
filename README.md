@@ -8,7 +8,7 @@ This project aims to classify bird images and sounds using Convolutional Neural 
 - Student-id: Forane-9
 - Dataset for image https://www.kaggle.com/datasets/gpiosenka/100-bird-species 
 - Dataset for sound https://xeno-canto.org/
-- Complete dataset for sounds [drive](https://drive.google.com/drive/folders/1DxpEXlCTJc13DQlRF1Y0mBS9rMhDrddH?usp=sharing)
+- Complete dataset for sounds and images [drive](https://drive.google.com/drive/folders/1DxpEXlCTJc13DQlRF1Y0mBS9rMhDrddH?usp=sharing)
 
 ## BirdAI Project
 This classification project is part of a larger project called BirdAI wich I worked at during this time period, which aims to develop an applied AI solution for bird species recognition. The BirdAI project encompasses both image and sound recognition for birds and has been transformed into a web application. If you are interested in the broader context and other components of the project, you can explore the full BirdAI website at https://99jessve.github.io./
@@ -71,7 +71,7 @@ pip install scipy
 - [Matplotlib](https://pypi.org/project/matplotlib): A Python plotting library.
 - [Librosa](https://pypi.org/project/librosa): A Python package for music and audio analysis.
 
-## Accuracy for 9 different sounds with 1 hidden layer
+## Accuracy for 9 different sounds with 1 hidden layer and ReLu
 
 | Learning rate | Accuracy | F1-Score | Precision | Recall |
 | ------------- |----------| -------- |---------- |--------|
@@ -82,7 +82,7 @@ pip install scipy
 | 0.1           |   78.4%  |   78%    |    79%    |   78%  |
 | 0.5           |   76.0%  |   76%    |    77%    |   76%  |
 
-## Accuracy for 9 different sounds with 3 hidden layer
+## Accuracy for 9 different sounds with 3 hidden layer and ReLu
 
 | Learning rate | Accuracy | F1-Score | Precision | Recall |
 | ------------- |----------| -------- |---------- |--------|
@@ -92,3 +92,19 @@ pip install scipy
 | 0.05          |   76.7%  |   77%    |    77%    |   77%  |
 | 0.1           |   76.6%  |   77%    |    78%    |   77%  |
 | 0.5           |   77.2%  |   77%    |    78%    |   77%  |
+
+## Accuracy for 9 different sounds with 5 hidden layer and ReLu
+
+| Learning rate | Accuracy | F1-Score | Precision | Recall |
+| ------------- |----------| -------- |---------- |--------|
+| 0.001         |   52.4%  |   47%    |    55%    |   52%  |
+| 0.01          |   49.0%  |   49%    |    48%    |   45%  |
+| 0.1           |   48.8%  |   41%    |    47%    |   48%  |
+
+## Accuracy for 9 different sounds with 1 hidden layer and Tanh
+
+| Learning rate | Accuracy | F1-Score | Precision | Recall |
+| ------------- |----------| -------- |---------- |--------|
+| 0.0001        |   77.8%  |   77%    |    78%    |   78%  |
+| 0.001         |   76.0%  |   76%    |    77%    |   76%  |
+| 0.01          |   74.1%  |   74%    |    76%    |   74%  |
