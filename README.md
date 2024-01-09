@@ -108,3 +108,15 @@ pip install scipy
 | 0.0001        |   77.8%  |   77%    |    78%    |   78%  |
 | 0.001         |   76.0%  |   76%    |    77%    |   76%  |
 | 0.01          |   74.1%  |   74%    |    76%    |   74%  |
+
+## Accuracy for 119 different sounds with 1 hidden layer and ReLu
+
+| Learning rate | Accuracy | 
+| ------------- |----------|
+| 0.001         |   41.5%  |
+
+## Accuracy for 525 different Images with 1 hidden layer and ReLu
+
+| Learning rate | Accuracy | F1-Score | Precision | Recall |
+| ------------- |----------| -------- |---------- |--------|
+|  0.001        |   95.1%  |   94%    |    95%    |   94%  |
