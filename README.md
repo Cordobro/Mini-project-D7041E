@@ -9,6 +9,7 @@ This project aims to classify bird images and sounds using Convolutional Neural 
 - Dataset for image https://www.kaggle.com/datasets/gpiosenka/100-bird-species 
 - Dataset for sound https://xeno-canto.org/
 - Complete dataset for sounds and images [drive](https://drive.google.com/drive/folders/1DxpEXlCTJc13DQlRF1Y0mBS9rMhDrddH?usp=sharing)
+- Video: https://youtu.be/aYeyFvq8F9U
 
 ## BirdAI Project
 This classification project is part of a larger project called BirdAI wich I worked at during this time period, which aims to develop an applied AI solution for bird species recognition. The BirdAI project encompasses both image and sound recognition for birds and has been transformed into a web application. If you are interested in the broader context and other components of the project, you can explore the full BirdAI website at https://99jessve.github.io./
